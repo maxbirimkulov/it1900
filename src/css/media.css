@@ -1,0 +1,179 @@
+
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 972px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 757px;
+    }
+    .skills-row{
+        gap: 40px;
+    }
+    .skills-card{
+        width: calc(50% - 20px);
+    }
+    .aboutMe {
+        padding: 90px 0 80px;
+    }
+    .skills {
+        padding: 60px 0 80px;
+    }
+    .portfolio {
+        padding: 90px 0 80px;
+    }
+    .home {
+        padding: 40px 0 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-title {
+        font-size: 38.3392px;
+        line-height: 45px;
+    }
+    .home {
+        padding: 40px 0 60px;
+    }
+    .aboutMe {
+        padding: 70px 0 60px;
+    }
+    .aboutMe-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .aboutMe-text {
+         font-size: 16px;
+         line-height: 21px;
+         margin-bottom: 25px;
+     }
+    .skills {
+        padding: 50px 0 60px;
+    }
+    .skills-subtitle {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 40px 0 60px;
+    }
+    .portfolio {
+        padding: 70px 0 60px;
+    }
+    .portfolio-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .portfolio-project {
+        margin-bottom: 70px;
+    }
+    .portfolio-project-img {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .header-navbar{
+        display: none;
+    }
+    .home-lang{
+        display: none;
+    }
+    .home-row{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+    .aboutMe {
+        padding: 50px 0 40px;
+    }
+    .home {
+        padding: 40px 0 40px;
+    }
+    .aboutMe-title {
+        font-size: 29px;
+        line-height: 30px;
+    }
+    .aboutMe-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .skills {
+        padding: 40px 0 40px;
+    }
+    .skills-subtitle {
+        font-size: 16px;
+        margin: 25px 0 40px;
+    }
+    .skills-card-rate {
+        column-gap: 5px;
+        font-size: 19px;
+    }
+    .skills-card-title {
+        margin: 20px 0 25px;
+    }
+    .skills-card-title.figma {
+        margin: 28px 0 34px;
+    }
+    .portfolio {
+        padding: 50px 0 40px;
+    }
+    .portfolio-title {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+    .portfolio-project {
+        margin-bottom: 50px;
+    }
+    .portfolio-project-img {
+        margin-bottom: 20px;
+    }
+    .burger{
+        display: block;
+        position: fixed;
+        width: 33px;
+        height: 33px;
+        top: 38px;
+        right: 33px;
+    }
+    .burger-line{
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .burger-line::before{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        top: -8px;
+    }
+    .burger-line::after{
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        top: 8px;
+    }
+}
+
+@media (max-width: 425px) {
+    .skills-card {
+        width: 100%;
+    }
+}
+
